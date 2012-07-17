@@ -10,9 +10,9 @@ It would be helpful for everyone who wants to implement cool design button with 
 Screenshots
 ===========
 
-![screenshot01](screenshot01.png)
+![screenshot01](https://github.com/noradaiko/ZenPlayer-for-iOS/raw/master/screenshot01.png)
 
-![screenshot02](screenshot02.png)
+![screenshot02](https://github.com/noradaiko/ZenPlayer-for-iOS/raw/master/screenshot02.png)
 
 
 Links
