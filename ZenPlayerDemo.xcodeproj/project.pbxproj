@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8861706315B5951A00879D9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8861706215B5951A00879D9A /* UIKit.framework */; };
+		8861706515B5951A00879D9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8861706415B5951A00879D9A /* Foundation.framework */; };
+		8861706715B5951A00879D9A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8861706615B5951A00879D9A /* CoreGraphics.framework */; };
+		8861706D15B5951A00879D9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8861706B15B5951A00879D9A /* InfoPlist.strings */; };
+		8861706F15B5951A00879D9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8861706E15B5951A00879D9A /* main.m */; };
+		8861707315B5951A00879D9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8861707215B5951A00879D9A /* AppDelegate.m */; };
+		8861707615B5951A00879D9A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8861707415B5951A00879D9A /* MainStoryboard.storyboard */; };
+		8861707915B5951A00879D9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8861707815B5951A00879D9A /* ViewController.m */; };
+		8861709115B5956000879D9A /* zenpb_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8861708515B5956000879D9A /* zenpb_bg.png */; };
+		8861709215B5956000879D9A /* zenpb_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8861708615B5956000879D9A /* zenpb_bg@2x.png */; };
+		8861709315B5956000879D9A /* zenpb_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 8861708715B5956000879D9A /* zenpb_circle.png */; };
+		8861709415B5956000879D9A /* zenpb_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8861708815B5956000879D9A /* zenpb_circle@2x.png */; };
+		8861709515B5956000879D9A /* zenpb_pausebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8861708915B5956000879D9A /* zenpb_pausebutton.png */; };
+		8861709615B5956000879D9A /* zenpb_pausebutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8861708A15B5956000879D9A /* zenpb_pausebutton@2x.png */; };
+		8861709715B5956000879D9A /* zenpb_playbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8861708B15B5956000879D9A /* zenpb_playbutton.png */; };
+		8861709815B5956000879D9A /* zenpb_playbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8861708C15B5956000879D9A /* zenpb_playbutton@2x.png */; };
+		8861709915B5956000879D9A /* zenpb_progress.png in Resources */ = {isa = PBXBuildFile; fileRef = 8861708D15B5956000879D9A /* zenpb_progress.png */; };
+		8861709A15B5956000879D9A /* zenpb_progress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8861708E15B5956000879D9A /* zenpb_progress@2x.png */; };
+		8861709B15B5956000879D9A /* ZenPlayerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8861709015B5956000879D9A /* ZenPlayerButton.m */; };
+		8861709F15B5964000879D9A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8861709E15B5964000879D9A /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8861705E15B5951A00879D9A /* ZenPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZenPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8861706215B5951A00879D9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8861706415B5951A00879D9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8861706615B5951A00879D9A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8861706A15B5951A00879D9A /* ZenPlayerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZenPlayerDemo-Info.plist"; sourceTree = "<group>"; };
+		8861706C15B5951A00879D9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8861706E15B5951A00879D9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8861707015B5951A00879D9A /* ZenPlayerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZenPlayerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		8861707115B5951A00879D9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8861707215B5951A00879D9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8861707515B5951A00879D9A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8861707715B5951A00879D9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8861707815B5951A00879D9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8861708515B5956000879D9A /* zenpb_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zenpb_bg.png; sourceTree = "<group>"; };
+		8861708615B5956000879D9A /* zenpb_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zenpb_bg@2x.png"; sourceTree = "<group>"; };
+		8861708715B5956000879D9A /* zenpb_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zenpb_circle.png; sourceTree = "<group>"; };
+		8861708815B5956000879D9A /* zenpb_circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zenpb_circle@2x.png"; sourceTree = "<group>"; };
+		8861708915B5956000879D9A /* zenpb_pausebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zenpb_pausebutton.png; sourceTree = "<group>"; };
+		8861708A15B5956000879D9A /* zenpb_pausebutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zenpb_pausebutton@2x.png"; sourceTree = "<group>"; };
+		8861708B15B5956000879D9A /* zenpb_playbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zenpb_playbutton.png; sourceTree = "<group>"; };
+		8861708C15B5956000879D9A /* zenpb_playbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zenpb_playbutton@2x.png"; sourceTree = "<group>"; };
+		8861708D15B5956000879D9A /* zenpb_progress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zenpb_progress.png; sourceTree = "<group>"; };
+		8861708E15B5956000879D9A /* zenpb_progress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zenpb_progress@2x.png"; sourceTree = "<group>"; };
+		8861708F15B5956000879D9A /* ZenPlayerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZenPlayerButton.h; sourceTree = "<group>"; };
+		8861709015B5956000879D9A /* ZenPlayerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZenPlayerButton.m; sourceTree = "<group>"; };
+		8861709C15B595A800879D9A /* debug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		8861709D15B595A800879D9A /* debug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = debug.m; sourceTree = "<group>"; };
+		8861709E15B5964000879D9A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8861705B15B5951A00879D9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8861709F15B5964000879D9A /* QuartzCore.framework in Frameworks */,
+				8861706315B5951A00879D9A /* UIKit.framework in Frameworks */,
+				8861706515B5951A00879D9A /* Foundation.framework in Frameworks */,
+				8861706715B5951A00879D9A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8861705315B5951900879D9A = {
+			isa = PBXGroup;
+			children = (
+				8861709E15B5964000879D9A /* QuartzCore.framework */,
+				8861706815B5951A00879D9A /* ZenPlayerDemo */,
+				8861706115B5951A00879D9A /* Frameworks */,
+				8861705F15B5951A00879D9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8861705F15B5951A00879D9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8861705E15B5951A00879D9A /* ZenPlayerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8861706115B5951A00879D9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8861706215B5951A00879D9A /* UIKit.framework */,
+				8861706415B5951A00879D9A /* Foundation.framework */,
+				8861706615B5951A00879D9A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8861706815B5951A00879D9A /* ZenPlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8861707115B5951A00879D9A /* AppDelegate.h */,
+				8861707215B5951A00879D9A /* AppDelegate.m */,
+				8861707415B5951A00879D9A /* MainStoryboard.storyboard */,
+				8861707715B5951A00879D9A /* ViewController.h */,
+				8861707815B5951A00879D9A /* ViewController.m */,
+				8861709C15B595A800879D9A /* debug.h */,
+				8861709D15B595A800879D9A /* debug.m */,
+				8861708415B5956000879D9A /* ZenPlayerButton */,
+				8861706915B5951A00879D9A /* Supporting Files */,
+			);
+			path = ZenPlayerDemo;
+			sourceTree = "<group>";
+		};
+		8861706915B5951A00879D9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8861706A15B5951A00879D9A /* ZenPlayerDemo-Info.plist */,
+				8861706B15B5951A00879D9A /* InfoPlist.strings */,
+				8861706E15B5951A00879D9A /* main.m */,
+				8861707015B5951A00879D9A /* ZenPlayerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8861708415B5956000879D9A /* ZenPlayerButton */ = {
+			isa = PBXGroup;
+			children = (
+				8861708515B5956000879D9A /* zenpb_bg.png */,
+				8861708615B5956000879D9A /* zenpb_bg@2x.png */,
+				8861708715B5956000879D9A /* zenpb_circle.png */,
+				8861708815B5956000879D9A /* zenpb_circle@2x.png */,
+				8861708915B5956000879D9A /* zenpb_pausebutton.png */,
+				8861708A15B5956000879D9A /* zenpb_pausebutton@2x.png */,
+				8861708B15B5956000879D9A /* zenpb_playbutton.png */,
+				8861708C15B5956000879D9A /* zenpb_playbutton@2x.png */,
+				8861708D15B5956000879D9A /* zenpb_progress.png */,
+				8861708E15B5956000879D9A /* zenpb_progress@2x.png */,
+				8861708F15B5956000879D9A /* ZenPlayerButton.h */,
+				8861709015B5956000879D9A /* ZenPlayerButton.m */,
+			);
+			path = ZenPlayerButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8861705D15B5951A00879D9A /* ZenPlayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8861707C15B5951A00879D9A /* Build configuration list for PBXNativeTarget "ZenPlayerDemo" */;
+			buildPhases = (
+				8861705A15B5951A00879D9A /* Sources */,
+				8861705B15B5951A00879D9A /* Frameworks */,
+				8861705C15B5951A00879D9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZenPlayerDemo;
+			productName = ZenPlayerDemo;
+			productReference = 8861705E15B5951A00879D9A /* ZenPlayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8861705515B5951900879D9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = noradaiko;
+			};
+			buildConfigurationList = 8861705815B5951900879D9A /* Build configuration list for PBXProject "ZenPlayerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8861705315B5951900879D9A;
+			productRefGroup = 8861705F15B5951A00879D9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8861705D15B5951A00879D9A /* ZenPlayerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8861705C15B5951A00879D9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8861706D15B5951A00879D9A /* InfoPlist.strings in Resources */,
+				8861707615B5951A00879D9A /* MainStoryboard.storyboard in Resources */,
+				8861709115B5956000879D9A /* zenpb_bg.png in Resources */,
+				8861709215B5956000879D9A /* zenpb_bg@2x.png in Resources */,
+				8861709315B5956000879D9A /* zenpb_circle.png in Resources */,
+				8861709415B5956000879D9A /* zenpb_circle@2x.png in Resources */,
+				8861709515B5956000879D9A /* zenpb_pausebutton.png in Resources */,
+				8861709615B5956000879D9A /* zenpb_pausebutton@2x.png in Resources */,
+				8861709715B5956000879D9A /* zenpb_playbutton.png in Resources */,
+				8861709815B5956000879D9A /* zenpb_playbutton@2x.png in Resources */,
+				8861709915B5956000879D9A /* zenpb_progress.png in Resources */,
+				8861709A15B5956000879D9A /* zenpb_progress@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8861705A15B5951A00879D9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8861706F15B5951A00879D9A /* main.m in Sources */,
+				8861707315B5951A00879D9A /* AppDelegate.m in Sources */,
+				8861707915B5951A00879D9A /* ViewController.m in Sources */,
+				8861709B15B5956000879D9A /* ZenPlayerButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8861706B15B5951A00879D9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8861706C15B5951A00879D9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8861707415B5951A00879D9A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8861707515B5951A00879D9A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8861707A15B5951A00879D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8861707B15B5951A00879D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8861707D15B5951A00879D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZenPlayerDemo/ZenPlayerDemo-Prefix.pch";
+				INFOPLIST_FILE = "ZenPlayerDemo/ZenPlayerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8861707E15B5951A00879D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZenPlayerDemo/ZenPlayerDemo-Prefix.pch";
+				INFOPLIST_FILE = "ZenPlayerDemo/ZenPlayerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8861705815B5951900879D9A /* Build configuration list for PBXProject "ZenPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8861707A15B5951A00879D9A /* Debug */,
+				8861707B15B5951A00879D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8861707C15B5951A00879D9A /* Build configuration list for PBXNativeTarget "ZenPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8861707D15B5951A00879D9A /* Debug */,
+				8861707E15B5951A00879D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8861705515B5951900879D9A /* Project object */;
+}
